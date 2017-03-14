@@ -3,8 +3,13 @@
 
 class Vaca
 {
-	public:
+	public: 
+	
 	protected:
+   	char nombres[max_char] ;
+   	char Raza[max_char];
+	int peso;
+	int litros_leche;
 };
 
 #endif

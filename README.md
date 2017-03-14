@@ -1,4 +1,6 @@
 # Proyecto_vaca
+
 Autores:
-Yecer Castro
+Yecer Castro, 
+
 Luis Castro

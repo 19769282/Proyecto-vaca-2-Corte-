@@ -1,15 +1,26 @@
-#ifndef VACA_H
-#define VACA_H
 
-class Vaca
-{
-	public: 
+#ifndef vaca
+#define vaca
+
+using namespace std;
+class vaca{
 	
-	protected:
-   	char nombres[max_char] ;
-   	char Raza[max_char];
-	int peso;
-	int litros_leche;
+	public:
+		void setNombre(string v);
+		void setPeso(float v);
+		void setLitroLeche(float v);
+		void setRaza(int v);
+		string getNombre();
+		float getPeso();
+		float getLitroLeche();
+		int getRaza();
+		vaca();
+		~vaca();
+	private:
+		string nombre;
+		float peso;
+		float litroLeche;
+		int raza;
 };
 
-#endif
+#endif 

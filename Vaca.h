@@ -1,26 +1,28 @@
-
-#ifndef vaca
-#define vaca
+#include <iostream>
+#include <cstdlib>
+#include <cstdio>
+#ifndef VACAS_H
+#define VACAS_H
 
 using namespace std;
-class vaca{
-	
+
+class Vacas
+{
 	public:
-		void setNombre(string v);
-		void setPeso(float v);
-		void setLitroLeche(float v);
-		void setRaza(int v);
+		void setNombreV(string t);
+		void setRazaV(string t);
+		void setPesoV(float t);
+		void setLitrosDiarios(float t);
 		string getNombre();
+		string getRaza();
 		float getPeso();
-		float getLitroLeche();
-		int getRaza();
-		vaca();
-		~vaca();
+		float getLitrosDiarios();
+		
 	private:
 		string nombre;
+		string raza;
 		float peso;
-		float litroLeche;
-		int raza;
+		float litrosdiarios;
 };
 
-#endif 
+#endif
